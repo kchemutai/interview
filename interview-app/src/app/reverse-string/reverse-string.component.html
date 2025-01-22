@@ -1,0 +1,10 @@
+<div>
+    <h2>Reverse String Component</h2>
+    <!-- Input field for user to enter a string -->
+    <label for="inputString">Enter a string:</label>
+    <input id="inputString" [(ngModel)]="inputString" (input)="updateReversedString()" />
+  
+    <!-- Display the reversed string -->
+    <p>Reversed String: {{ reversedString }}</p>
+  </div>
+  
